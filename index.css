@@ -1,0 +1,43 @@
+.demo-layout-transparent {
+  background: url('img/bckgrnd.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button,
+.pf_header, .pf_text {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: #ddf;
+  -moz-text-shadow:0 0 10px #fff; -webkit-text-shadow:0 0 10px #fff; text-shadow:0 0 10px #fff;
+}
+.demo-card-wide.mdl-card {
+margin: auto;
+width: 400px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+#card_1 {
+background: url('img/weather.jpg') center / cover;
+}
+#card_2 {
+background: url('img/random.jpg') center / cover;
+}
+#card_3 {
+background: url('img/portfolio.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-cell {
+text-align: center;
+}
+section:not(#portfolios){
+/* border:solid 1px white; */
+min-height:100vh;
+}
+.pf_photo {
+background-color: rgba(200,200,200,.3) !important;
+width:200px;
+height:200px;
+}

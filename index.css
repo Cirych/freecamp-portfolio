@@ -1,5 +1,5 @@
 .demo-layout-transparent {
-  background: url('img/bckgrnd.jpg') center / cover;
+  background: url('https://raw.githubusercontent.com/Cirych/freecamp-portfolio/master/img/bckgrnd.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button,
@@ -18,13 +18,13 @@ width: 400px;
   height: 176px;
 }
 #card_1 {
-background: url('img/weather.jpg') center / cover;
+background: url('https://raw.githubusercontent.com/Cirych/freecamp-portfolio/master/img/weather.jpg') center / cover;
 }
 #card_2 {
-background: url('img/random.jpg') center / cover;
+background: url('https://raw.githubusercontent.com/Cirych/freecamp-portfolio/master/img/random.jpg') center / cover;
 }
 #card_3 {
-background: url('img/portfolio.jpg') center / cover;
+background: url('https://raw.githubusercontent.com/Cirych/freecamp-portfolio/master/img/portfolio.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
